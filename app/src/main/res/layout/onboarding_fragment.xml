@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/Bimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/f1"
+        android:src="@drawable/f1"
+        android:tint="#b7b6b6"
+        android:tintMode="multiply"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOPPING TIME!"
+        android:textSize="35dp"
+        android:textColor="#7b1509"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

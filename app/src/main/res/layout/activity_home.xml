@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/a5"
+        android:backgroundTint="#949494"
+        android:backgroundTintMode="multiply"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHOPPING  TIME!"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp">
+        <LinearLayout
+            android:id="@+id/MyList"
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/br"
+            android:backgroundTint="#d4caca"
+            android:backgroundTintMode="multiply"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/list"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:text="My Lists"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/bb"
+            android:backgroundTint="#d4caca"
+            android:backgroundTintMode="multiply"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/n"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:text="New List"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg"
+            android:backgroundTint="#d4caca"
+            android:backgroundTintMode="multiply"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/set"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:text="Settings"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
