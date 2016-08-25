@@ -26,6 +26,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="15dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
             android:text="Skip>>"
             android:textColor="#9f1313"
             android:textSize="20dp"
@@ -43,8 +45,8 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="."
-                android:textColor="#9f1313"
-                android:textSize="20dp"
+                android:textColor="#FFE7CA"
+                android:textSize="@dimen/dot_size"
                 />
             <TextView
                 android:id="@+id/dot2"
@@ -53,7 +55,7 @@
                 android:padding="10dp"
                 android:text="."
                 android:textColor="#9f1313"
-                android:textSize="20dp"
+                android:textSize="@dimen/dot_size"
                 />
             <TextView
                 android:id="@+id/dot3"
@@ -62,7 +64,7 @@
                 android:padding="10dp"
                 android:text="."
                 android:textColor="#9f1313"
-                android:textSize="20dp"
+                android:textSize="@dimen/dot_size"
                 />
             <TextView
                 android:id="@+id/dot4"
@@ -71,7 +73,7 @@
                 android:padding="10dp"
                 android:text="."
                 android:textColor="#9f1313"
-                android:textSize="20dp"
+                android:textSize="@dimen/dot_size"
                 />
             <TextView
                 android:id="@+id/dot5"
@@ -80,7 +82,7 @@
                 android:padding="10dp"
                 android:text="."
                 android:textColor="#9f1313"
-                android:textSize="20dp"
+                android:textSize="@dimen/dot_size"
                 />
 
         </LinearLayout>
@@ -90,8 +92,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Next"
-            android:paddingRight="15dp"
+            android:paddingRight="20dp"
             android:textColor="#9f1313"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
             android:textSize="20dp"
             android:textStyle="bold"
            />

@@ -17,7 +17,7 @@ public class MyPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        return new OnBoardingFragment(position);
+        return new Frag(position);
     }
 
 
